@@ -14,6 +14,7 @@
     --tertiary-color: #e8eaed;
     --quaternary-color: #152e44;
     --quinary-color: #112536;
+    --senary-color: #333;
 }
 
 .container {
@@ -51,7 +52,7 @@
 }
 
 .sub-header h1 {
-    color: black;
+    color: var(--senary-color);
 }
 
 .txt-blue {
@@ -68,7 +69,7 @@
 
 .sub-header a {
     text-decoration: none;
-    color: var(--quaternary-color);
+    color: var(--senary-color);
 }
 
 .sub-header a:hover {
