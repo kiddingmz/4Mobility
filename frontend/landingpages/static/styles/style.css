@@ -1,0 +1,12 @@
+/* This file is used to define the global styles for the landing pages. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is the global font for the landing pages. */
+:root {
+    --primary-color: #f3f3f3;
+    --secondary-color: #f3f3f3;
+}
