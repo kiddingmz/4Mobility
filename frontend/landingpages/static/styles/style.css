@@ -35,6 +35,7 @@
     align-items: center;
 }
 
+/** Header */
 .header {
     width: 100vw;
     background-color: red;
@@ -75,4 +76,16 @@
 .sub-header a:hover {
     color: var(--primary-color);
     transition: 0.3s ease all ;
+}
+
+/** End Header */
+
+/** Banner */
+.banner {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
