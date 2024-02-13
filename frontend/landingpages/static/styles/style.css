@@ -82,10 +82,30 @@
 
 /** Banner */
 .banner {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+}
+
+.sub-banner {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/gps_tracker.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub-banner h2, p {
     padding: 1rem;
+    color: white;
+}
+
+.sub-banner-content {
+    width: 100%;
+    max-width: 1170px;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
 }
