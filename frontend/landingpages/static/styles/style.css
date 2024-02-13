@@ -10,6 +10,7 @@
 /* This is the global font for the landing pages. */
 :root {
     --primary-color:  #00a0f0;
+    --primary-s-color: #007FFFD8;
     --secondary-color: #fff;
     --tertiary-color: #e8eaed;
     --quaternary-color: #152e44;
@@ -58,7 +59,7 @@
 }
 
 .txt-blue {
-    color: var(--primary-color);
+    color: var(--primary-s-color);
 }
 
 .sub-header ul {
@@ -75,7 +76,7 @@
 }
 
 .sub-header a:hover {
-    color: var(--primary-color);
+    color: var(--primary-s-color);
     transition: 0.3s ease all ;
 }
 
@@ -104,16 +105,14 @@
 
 .sub-banner-content {
     width: 100%;
-    max-width: 1170px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #3B666B;
+    background-color: #007FFF3D;
 }
 
 .sub-banner-content-2 {
-    width: 100%;
     position: relative;
     background: #007FFFD8;
     -webkit-transform-origin: 100% 100%;
