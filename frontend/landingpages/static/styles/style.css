@@ -119,13 +119,41 @@
     height: 200%;
     right: 50%;
     top: -200%;
-    z-index: 5;
 }
 
 /** End Banner */
 
-/** Text */
+/** About */
+.about {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    padding: 2.5rem;
+    background-color: white;
+}
 
+.sub-about {
+    display: flex;
+    z-index: 10;
+}
+
+.info-about {
+    flex: 1;
+    z-index: 10;
+}
+
+.img-about {
+    flex: 1;
+    background-image: url('../images/gps_tracker.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+/** End About */
+
+/** Text */
 .txt-color-white {
     color: white;
 }
