@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* This is the global font for the landing pages. */
@@ -10,3 +11,4 @@
     --primary-color: #f3f3f3;
     --secondary-color: #f3f3f3;
 }
+
