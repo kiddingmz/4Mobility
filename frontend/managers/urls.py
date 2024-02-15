@@ -16,16 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from landingpages.views import home as landingpage
-from django.urls import include
-from users.views import index as users_index
-from users.views import map as users_map
+from managers.views import index as managers_index
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', landingpage),
-    path('users/', users_index, name='index'),
-    path('users/map/', users_map, name='map'),
-    path('manager/', include('managers.urls')),
+    path('', managers_index, name='index'),
+    path('map/', managers_index, name='map'),
 ]
