@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% include 'managers/layout/base_top_layout.html' %}
 
-</body>
-</html>
+    <div class="content">
+        <h1 class="card-title p-2">{{ name }}</h1>
+        <div class="container m-1 bg-body-secondary">
+            <div class="row">
+                <div class="col-12">
+                    <div id="mapid"  class="mymap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% include 'managers/layout/base_bottom_layout.html' %}
