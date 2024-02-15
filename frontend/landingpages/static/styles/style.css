@@ -130,7 +130,7 @@
 .about {
     position: relative;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     padding: 2.5rem;
     background-color: white;
 }
@@ -158,9 +158,9 @@
 
 /** Features */
 .features {
-    position: relative;
+    /*position: relative;*/
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     padding: 2.5rem;
     background-color: white;
     z-index: 10;
@@ -168,7 +168,59 @@
 
 /** End Features */
 
+/** Video */
+
+.video {
+    /*position: relative;*/
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.sub-video {
+    padding: 2.5rem;
+    background-color: var(--quinary-color);
+    width: 100%;
+    height: 80vh;
+    z-index: 10;
+}
+
+.sub-video > iframe {
+    padding: 2.5rem;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: var(--quinary-color);
+}
+
+/** End Video */
+
+/** Footer */
+footer {
+    /*position: relative;*/
+    width: 100vw;
+    height: 200px;
+    padding: 2.5rem;
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    z-index: 10;
+}
+
+.sub-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
 /** Text */
+
+.p-2 {
+    padding: 2.5rem;
+}
+
 .txt-color-white {
     color: white;
 }
