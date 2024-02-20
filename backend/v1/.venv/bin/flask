@@ -1,4 +1,4 @@
-#!/home/thide/WorkSpace/ALX/4Mobility/backend/v1/.venv/bin/python3
+#!/home/thide/WorkSpace/ALX/4Mobility/backend/v1/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
